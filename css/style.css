@@ -1,0 +1,225 @@
+body {
+    background-color: #CDF0EA;
+    font-family: "Montserrat";
+}
+html{
+    font-size: 15px;
+}
+.logo{
+    display:inline-block;
+    position: absolute;
+    left: 3rem;
+    top: 1.5rem;
+}
+.heading{
+     font-size: 1.5rem;
+    display :flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3rem;  
+    margin-left:4rem;
+     
+    
+}
+.big-heading {
+    padding-left: 280px;
+    padding-right: 300px;
+    padding-top: 35px;
+}
+
+.small-logo {
+    height: 130px;
+    
+    float: left;
+    margin: 1%;
+    text-align: center;
+}
+
+.large-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+
+}
+
+.large-welcome {
+    position: relative;
+    text-align: center;
+    font-size: 3rem;
+
+}
+
+.container {
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+.f-group {
+    
+    width: 100%;
+    margin: 10px;
+    
+}
+
+.f-group label {
+    text-align: left;
+    display: inline-block;
+    margin-right: 8px;
+    margin-left: 8px;
+    font-family: "Ubuntu";
+    font-weight: 500;
+   
+
+    
+}
+.form-control{
+    width: 20%;
+}
+.f-group input{
+    text-align: center;
+    border: 2px solid black;
+    width: 30%;
+    height: 40px;
+    margin-right: 20px;
+    border-radius: 6px;
+}
+
+select {
+    text-align: center;
+    border: 2px solid black;
+    width: 30%;
+    height: 40px;
+    padding: 0 15px;
+    margin-right: 20px;
+    border-radius: 6px;
+}
+
+#title {
+    background-color: black;
+    color: #fff;
+    text-align: left;
+}
+
+.container-fluid {
+    padding: 0%;
+
+}
+
+.navbar {
+    padding-bottom: 1.5rem;
+}
+
+.navbar-brand {
+    font-family: Ubuntu;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0px 18px;
+
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+
+input {
+    margin: 5px;
+    width: 70%;
+    font-family: Ubuntu;
+    height: 40px;
+    text-align: left;
+    padding-left: 10px;
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+
+}
+
+label {
+    text-align: left;
+    width: 200px;
+   
+    margin-left: 1%;
+    
+    font-family: Ubuntu;
+}
+h3 {
+    font-family: Ubuntu;
+    margin-bottom: 1.5rem;
+    margin-top: 16px;
+   
+}
+
+.container-input {
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+.btn {
+    color: black;
+    font-family: Ubuntu;
+    text-align: center;
+    background: #CDF0EA;
+    border: 2px solid white;
+    border-radius: 14px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+.btn-g {
+    width: 20%;
+    color: black;
+    font-family: Ubuntu;
+    text-align: center;
+    background: #CDF0EA;
+    border: 2px solid white;
+    border-radius: 14px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+.submitMsg {
+    color: green;
+    font-family: "Ubuntu";
+    
+}
+.whole-table{
+    text-align: center;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 45px 0px;
+    margin-left: 260px;
+    text-align: center;
+    font-size: 0.9rem;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+   /* overflow: hidden;  */
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+
+}
+.content-table thead tr{
+    font-family: "Ubuntu";
+    background-color: black;
+    color:#ffffff;
+    /* text-align: left; */
+    font-weight: bold;
+    font-size: larger;
+}
+
+
+.content-table th{
+    padding: 12px 15px;
+    font-size: 1.5rem;
+    background-color: rgb(10, 214, 136);
+}
